@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #0B1020;
+  --foreground: #F8FAFC;
+}
+
+body {
+  background-color: #0B1020;
+  color: #F8FAFC;
+  font-family: var(--font-inter), sans-serif;
+  overflow-x: hidden;
+  user-select: none;
+}
+
+/* Polices avioniques */
+.font-space {
+  font-family: var(--font-space-grotesk), sans-serif;
+}
+
+/* Animations et effets d'affichage */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.35s ease-out forwards;
+}
+
+/* Styles d'impression pour l'export officiel PDF du Goddard Space Flight Center */
+@media print {
+  body {
+    background-color: #FFFFFF !important;
+    color: #000000 !important;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .printable-report {
+    max-width: 100% !important;
+    padding: 0 !important;
+    color: #000000 !important;
+  }
+
+  header, nav, button {
+    display: none !important;
+  }
+
+  .printable-report div {
+    background-color: #FFFFFF !important;
+    color: #1E293B !important;
+    border-color: #CBD5E1 !important;
+    box-shadow: none !important;
+  }
+
+  .printable-report h1,
+  .printable-report h2,
+  .printable-report h3,
+  .printable-report h4,
+  .printable-report p,
+  .printable-report span {
+    color: #0F172A !important;
+    text-shadow: none !important;
+  }
+
+  svg text, svg path, svg circle {
+    stroke: #0284C7 !important;
+  }
+}

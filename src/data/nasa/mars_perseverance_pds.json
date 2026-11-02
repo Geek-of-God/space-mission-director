@@ -1,0 +1,32 @@
+{
+  "mission": "NASA Mars Sample Return (MSR) Telecom & Orbital Relay",
+  "perseveranceLocation": "Jezero Crater Delta (18.38°N, 77.58°E)",
+  "environmentalTelemetry": {
+    "sol": 1134,
+    "atmosphericOpacityTau": 1.45,
+    "dustStormSeverity": "Tempête régionale en progression dans Utopia Planitia",
+    "ambientTempCelsius": -64,
+    "roundTripRadioDelayMinutes": 14.2
+  },
+  "sampleCaches": {
+    "totalTubesDeposited": 10,
+    "igneousRocks": 4,
+    "sedimentaryRocks": 5,
+    "atmosphericBlank": 1,
+    "opticalWitnessStatus": "Scellés hermétiquement en titane"
+  },
+  "deepSpaceNetworkWindows": [
+    {
+      "station": "Goldstone Deep Space Communications Complex DSS-14",
+      "elevationAngle": 38.4,
+      "frequencyBand": "Ka-band (32 GHz)",
+      "downlinkRateMbps": 2.0
+    },
+    {
+      "station": "Madrid Deep Space Communications Complex DSS-63",
+      "elevationAngle": 42.1,
+      "frequencyBand": "X-band (8.4 GHz)",
+      "downlinkRateMbps": 0.5
+    }
+  ]
+}

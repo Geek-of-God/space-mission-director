@@ -1,0 +1,26 @@
+{
+  "mission": "NASA Artemis Gateway Orbit (NRHO L2)",
+  "spacecraft": "Power and Propulsion Element (PPE) & HALO",
+  "orbitParameters": {
+    "orbitType": "Near Rectilinear Halo Orbit (NRHO) 9:2 Resonance",
+    "periseleneKm": 3120,
+    "aposeleneKm": 71400,
+    "periodDays": 6.56,
+    "inclinationDegrees": 90.0,
+    "thermalRangeKelvin": {
+      "sunlight": 395,
+      "shadow": 42
+    }
+  },
+  "lunarSouthPoleTargeting": {
+    "crater": "Shackleton Crater",
+    "permanentlyShadowedRegionAreaKm2": 210,
+    "surfaceWaterIcePresence": true,
+    "communicationLineOfSightRelayPercent": 98.4
+  },
+  "operationalConstraints": {
+    "maxEclipseDurationMinutes": 85,
+    "solarArrayShadowDischargeRateWatts": 3200,
+    "regolithElectrostaticLoftingRisk": "Modéré lors du terminateur lunaire"
+  }
+}

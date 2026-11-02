@@ -1,0 +1,34 @@
+{
+  "events": [
+    {
+      "activityID": "2024-05-10T17:42:00-CME-001",
+      "catalog": "NASA DONKI Official Database",
+      "startTime": "2024-05-10T17:42Z",
+      "sourceLocation": "Active Region NOAA AR3664",
+      "associatedFlare": {
+        "flareClass": "X1.2",
+        "derivedFluxWattsPerM2": 1.2e-4
+      },
+      "cmeSpeedKmS": 1380,
+      "halfAngleDegrees": 58,
+      "earthImpactProbability": 0.94,
+      "protonFluxLevel": "S3 Strong Solar Radiation Storm (>100 MeV protons)",
+      "analysisNote": "Éjection de masse coronale ultra-rapide en direction de la Terre et de l'orbite cislunaire. Forte ionisation de la thermosphère haute et risque critique de Single Event Upsets (SEU) sur l'avionique numérique."
+    },
+    {
+      "activityID": "2024-05-11T02:15:00-CME-002",
+      "catalog": "NASA DONKI Space Weather Alerts",
+      "startTime": "2024-05-11T02:15Z",
+      "sourceLocation": "Active Region NOAA AR3664",
+      "associatedFlare": {
+        "flareClass": "M5.4",
+        "derivedFluxWattsPerM2": 5.4e-5
+      },
+      "cmeSpeedKmS": 920,
+      "halfAngleDegrees": 42,
+      "earthImpactProbability": 0.72,
+      "protonFluxLevel": "S1 Minor Radiation Storm",
+      "analysisNote": "Onde de choc interplanétaire secondaire comprimant la magnétogaine terrestre. Dérive de phase sur les fréquences Ka et X."
+    }
+  ]
+}

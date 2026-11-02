@@ -1,0 +1,26 @@
+{
+  "mission": "NASA PACE (Plankton, Aerosol, Cloud, ocean Ecosystem)",
+  "launched": "2024-02-08",
+  "primaryInstrument": "Ocean Color Instrument (OCI) Hyperspectral",
+  "spectralBands": "Ultraviolet (350 nm) to Shortwave Infrared (2260 nm)",
+  "observations": [
+    {
+      "orbitNumber": 1420,
+      "swathCoverage": "Southern Ocean & Antarctic Polar Circle",
+      "aerosolOpticalDepth550nm": 0.38,
+      "chlorophyllConcentrationMgM3": 2.45,
+      "memoryBufferUsageMB": 8940,
+      "polarSwathDataLossRisk": 0.32,
+      "scientificSignificance": "Cartographie haute résolution du bloom phytoplanctonique boréal et absorption du CO2 atmosphérique."
+    },
+    {
+      "orbitNumber": 1428,
+      "swathCoverage": "Sahara Dust Plume & Tropical Atlantic",
+      "aerosolOpticalDepth550nm": 0.89,
+      "chlorophyllConcentrationMgM3": 0.42,
+      "memoryBufferUsageMB": 6420,
+      "polarSwathDataLossRisk": 0.12,
+      "scientificSignificance": "Suivi des fertilisations minérales marines par aérosols désertiques sahariens."
+    }
+  ]
+}

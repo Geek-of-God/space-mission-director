@@ -1,0 +1,37 @@
+{
+  "satellites": [
+    {
+      "missionId": "earth",
+      "noradCatalogNumber": 58926,
+      "name": "PACE (Plankton, Aerosol, Cloud, ocean Ecosystem)",
+      "altitudeKm": 705.4,
+      "velocityKmS": 7.66,
+      "inclinationDegrees": 98.0,
+      "orbitType": "Sun-Synchronous LEO (13:00 Local Ascending Node)",
+      "periodMinutes": 98.8,
+      "atmosphericDrag": "Faible (Altitude > 700km)"
+    },
+    {
+      "missionId": "moon",
+      "noradCatalogNumber": 99942,
+      "name": "Artemis Gateway PPE-HALO Relay",
+      "altitudeKm": 3120.0,
+      "velocityKmS": 1.42,
+      "inclinationDegrees": 90.0,
+      "orbitType": "Cislunar NRHO Polar Resonance",
+      "periodMinutes": 9446.4,
+      "atmosphericDrag": "Nul (Vide cislunaire profond)"
+    },
+    {
+      "missionId": "mars",
+      "noradCatalogNumber": 99988,
+      "name": "Mars Telecom & MSR Capture Orbiter",
+      "altitudeKm": 418.5,
+      "velocityKmS": 4.12,
+      "inclinationDegrees": 93.0,
+      "orbitType": "Aréocentrique Polaire Circulaire",
+      "periodMinutes": 118.2,
+      "atmosphericDrag": "Négligeable (Atmosphère raréfiée CO2)"
+    }
+  ]
+}
